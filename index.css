@@ -1,0 +1,67 @@
+body{
+    background: rgb(203, 201, 201);
+}
+.nav {
+    overflow: hidden;
+}
+.nav a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.nav a.active {
+    background-color: palevioletred;
+    color: white;
+}
+.about{
+    margin-left: 7rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+#about{
+    padding-left: 9rem;
+}
+img{
+    float: left;
+    height: 7rem;
+    margin-right: 1rem;
+}
+.career{
+    margin-left: 9rem;
+    margin-right: 5rem;
+}
+#career{
+    text-align: left;
+    width: 50%;
+}
+.list{
+    margin-top: 2rem;
+}
+.table{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ced1df;
+    border-radius: 8px;
+    background-color: gainsboro;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #000;
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
